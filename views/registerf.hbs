@@ -1,0 +1,45 @@
+{{#each abc}}
+<script>
+    function team(){
+        document.getElementById('form1').text1.disabled=false
+        document.getElementById('form1').mail1.disabled=false
+        document.getElementById('form1').paswrd1.disabled=false
+        document.getElementById('form1').text2.disabled=false
+        document.getElementById('form1').mail2.disabled=false
+        document.getElementById('form1').paswrd2.disabled=false
+        document.getElementById('form1').event2.value='{{{title}}}'
+    }
+    function ind(){
+        document.getElementById('form1').text1.disabled=false
+        document.getElementById('form1').mail1.disabled=false
+        document.getElementById('form1').paswrd1.disabled=false
+        document.getElementById('form1').text2.disabled=true
+        document.getElementById('form1').mail2.disabled=true
+        document.getElementById('form1').paswrd2.disabled=true
+        document.getElementById('form1').event2.value='NIL'
+    }
+
+</script>
+
+<br><br><br><br><br><br>
+
+<h1>helloo{{{title}}}</h1><br>
+<h2>{{{fee1}}}</h2><br>
+<h3>{{{fee2}}}</h3>
+<form id="form1" method="post" action="/registered">
+    <input type="button" value="team" onclick="team()">
+    <input type="button" value="individual" onclick="ind()">
+
+    <input type="text" id="text1" disabled="true" name="Text1">
+    <input type="email" id="mail1" disabled="true" name="Mail1">
+    <input type="password" id="paswrd1" disabled="true" name="Paswrd1">
+    <input type="text" value="{{{title}}}" name="Event1" readonly>
+    <br>
+   <input type="text" id="text2" disabled="true" name="Text2">
+    <input type="email" id="mail2" disabled="true" name="Mail2">
+    <input type="password" id="paswrd2" disabled="true" name="Paswrd2">
+    <input type="text" value="NIL" name="Event2" readonly id="event2">
+    <input type="submit">
+
+</form>
+{{/each}}

@@ -1,0 +1,222 @@
+body{
+    font-family: Work Sans;
+    color: #131313;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+/*index page*/
+
+.nsite-descrpt{
+    text-align: center;
+    text-align: justify;
+  text-justify: inter-word;
+  padding: 2em;
+  padding-top: 0;
+ }
+
+.Nsite-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 12em;
+}
+
+.Nsite-logo-brand{
+    width: 3em;
+    margin-left: 1em;
+}
+
+.form-box-name{
+    width: 20em;
+    margin: 0.3em;
+    height: 3em;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    border: transparent;
+}
+
+.form-box-email{
+    width: 20em;
+    margin: 0.3em;
+    height: 3em;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    border: transparent;
+}
+
+.form-sec{
+    width: 100vw;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-form{
+    width: 21.4em;
+    margin: 0.2em;
+    height: 2.5em;
+}
+
+/*home*/
+
+.navbar{
+    background-color: #002B5B;
+}
+
+.name-sec{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#depts{
+    display: flex;
+    justify-content: center;
+}
+
+.departs{
+    width: 10em;
+    height: 8em;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    margin-left: 1.4em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.dept-bg{
+    height: 7em;
+    width: 10.5em;
+    border-radius: 0.5em;
+}
+
+.dept-name{
+    margin-top: -4em;
+    color: aliceblue;
+    width: 10em;
+    font-weight: bolder;
+    padding: 0.5em;
+    text-shadow: 0px 0px 2px #131313;
+    -webkit-text-stroke: 0.4px rgb(255, 255, 255);
+}
+
+.dept-brand{
+    width: 100vw;
+    height: 5em;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.dept-bg-brand{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 10em;
+    border-radius: 0.5em;
+}
+
+.dept-name-brand{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding-bottom: 0;
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 2em;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.head{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: #002B5B;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.reg-details{
+    width: 8em;
+    font-weight: bolder;
+    margin-left: 1em;
+}
+
+.reg-details-cord{
+width: 100vw;
+font-weight: bolder;
+color: #002B5B;
+}
+
+.cord-name{
+    width: 8em;
+    height: 2em;
+    background-color: #002B5B;
+    border-radius: 0.2em;
+    float: left;
+    margin-left: 1em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 0.2em;
+}
+
+.register{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.reg-now{
+    border-radius: 0.2em;
+    background-color: #002B5B;
+    color: aliceblue;
+    width: 15em;
+    height: 3em;
+    margin-top: 2em;
+    font-weight: bolder;
+    box-shadow: 2px 2px 5px;
+}
+
+.button-align{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.nextbuttons{
+    padding-top: 1.2em;
+    float: left;
+}
+
+.button-next{
+  padding: .5em 2em;
+  font-size: 1.2em;
+  color: #cad9df;
+  background-color: #343434;
+  border: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  border-radius: 5px;
+}
+
+.button-next:hover,
+.button-next:focus {
+  color: #fff;
+  background-color: #607f8a;
+}

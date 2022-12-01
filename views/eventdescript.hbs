@@ -1,0 +1,42 @@
+<style>
+    #imggg{
+        height: 300px;
+        width: 1400px;
+    }
+    #title{
+        position: relative;
+        top: -70px;
+        color: white;
+    }
+    h5{
+        margin: 20px;
+    }
+</style>
+
+<img id="imggg" src="cse-bg.jpg">
+{{#each abc}}
+<center><h3 id="title">{{{title}}} event</h3></center>
+<div class="container">
+<h2> About the event</h2>
+<p>
+    {{{para}}}
+</p>
+<div class="row">
+   <b><h5 class="col-2 col-lg-5">Venue:<br> Room No.{{{room}}}</h5>
+
+    <h5 class="col-6 col-lg-3">Registeration Fee:
+        <br>${{{fee1}}}/- Per head<br>
+        ${{{fee2}}}/- Per Team
+    </h5> </b>
+</div>
+<b>
+<h4>Event coordinators:</h4>
+<div class="row">
+    <h5 class="col-3">{{{coordinator1}}}
+        <br>{{{coordinator1no}}}
+    </h5>
+    <h5 class="col-5">{{{coordinator2}}}<br>{{{coordinator2no}}}</h5></b>
+</div>
+</div>
+<center><a href="./register{{{title}}}"><button>Register</button></a></center>
+{{/each}}
